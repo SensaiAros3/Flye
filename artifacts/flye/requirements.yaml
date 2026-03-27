@@ -1,0 +1,16 @@
+packages:
+  "framer-motion": "For sleek, gaming-style entry animations and interactions"
+  "date-fns": "For formatting post timestamps"
+  "react-hook-form": "For robust form state management"
+  "@hookform/resolvers": "For zod schema validation in forms"
+  "clsx": "For merging tailwind classes"
+  "tailwind-merge": "For merging tailwind classes"
+
+images:
+  - path: "artifacts/flye/public/images/auth-bg.png"
+    description: "Dark, intense, solo leveling inspired glowing abstract background, deep blacks and vibrant neon blue and purple particle effects, mysterious system interface vibe"
+    aspect_ratio: "9:16"
+
+notes:
+  - Hooks are directly imported from @workspace/api-client-react as instructed
+  - Using session-based auth, assuming /api/auth/me returns 401 if not authenticated
